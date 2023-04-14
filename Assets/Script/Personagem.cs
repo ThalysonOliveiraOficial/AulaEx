@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Personagem : MonoBehaviour
 {
+    string _nome = "Mario";
     // Start is called before the first frame update
     void Start()
     {

@@ -2,12 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Personagem : MonoBehaviour
+public class Condicionais : MonoBehaviour
 {
-    [SerializeField] string _nome = "Mario"; //texto
-    [SerializeField] int _idade; //número inteiro
-    [SerializeField] float _velocidade;
-    [SerializeField] GameObject _person;
     // Start is called before the first frame update
     void Start()
     {

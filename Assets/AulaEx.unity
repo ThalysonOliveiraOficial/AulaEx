@@ -300,8 +300,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6df9a9bf0e6127640bd471d4752b9085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _i1: 6
-  _i2: 6
+  _i1: 0
+  _i2: 5
+  _t1: "multiplica\xE7\xE3o"
+  _b1: 0
 --- !u!1 &1063234936
 GameObject:
   m_ObjectHideFlags: 0

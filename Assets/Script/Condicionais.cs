@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Condicionais : MonoBehaviour
 {
@@ -32,22 +33,22 @@ public class Condicionais : MonoBehaviour
 
         if(_i1==1)
         {
-            Debug.Log("Fase 1 liberada");
+            //Debug.Log("Fase 1 liberada");
         }
         else
         {
-            Debug.Log("Fase 1 bloqueado");
+            //Debug.Log("Fase 1 bloqueado");
         }
 
 
         if(_t1== "multiplicação")
         {
-            Debug.Log(_i1 * _i2);
+            ///Debug.Log(_i1 * _i2);
            
         }
         else
         {
-            Debug.Log(_i1 + _i2);
+            //Debug.Log(_i1 + _i2);
         }
 
 
@@ -62,11 +63,11 @@ public class Condicionais : MonoBehaviour
         {
             _t1 = "Passagem Bloqueada";
         }
-        Debug.Log(_t1);
+        //Debug.Log(_t1);
 
         if (_i1 == _i2 && _b1 == true)
         {
-            Debug.Log("Entrar na Fase");
+            //Debug.Log("Entrar na Fase");
         }
     }
 
